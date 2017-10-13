@@ -8,6 +8,9 @@
 
 实现类似 Bear App 的内部动态更改应用图标，可用于应用版本切换，主题适配等场景。
 
+![](http://og1yl0w9z.bkt.clouddn.com/17-10-13/41998182.jpg) 
+![](http://og1yl0w9z.bkt.clouddn.com/17-10-13/62264076.jpg)
+
 | 名称 |1.列表页 |2.更换页 |3.结果页 |
 | ------------- | ------------- | ------------- | ------------- |
 | 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-10-12/66261150.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-10-12/59017691.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-10-12/23193778.jpg) |
