@@ -7,7 +7,7 @@
 
 [EN](#Requirements) | [中文](#中文说明)
 
-For App, Dynamic Change Icon, Swift + Objective-C Bilingual Implementation
+Dynamic Change Icon, Swift + Objective-C Bilingual Implementation
 
 Realize the internal dynamic change of application icons like Bear App, which can be used for application version switching, theme adaptation and other scenarios.
 
@@ -113,7 +113,7 @@ SOFTWARE.
 ---
 # 中文说明
 
-为App，动态的更改图标，swift + Objective-C双语实现
+动态更改图标，Swift + Objective-C 双语实现
 
 实现类似 Bear App 的内部动态更改应用图标，可用于应用版本切换，主题适配等场景。
 
