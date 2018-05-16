@@ -46,7 +46,7 @@ Objective-C call method
 #### Simple call
 Swift  code method
 ```
-	/// Icon rights protection
+    /// Icon rights protection
     func safeJudge() {
         if UIApplication.shared.supportsAlternateIcons {
             print("you can change this app's icon")
@@ -152,7 +152,7 @@ Objective-C 调用方法
 #### 第二步 简单调用
 Swift 代码实现
 ```
-	/// 图标权限保护
+    /// 图标权限保护
     func safeJudge() {
         if UIApplication.shared.supportsAlternateIcons {
             print("you can change this app's icon")
