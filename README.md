@@ -28,7 +28,7 @@ Realize the internal dynamic change of application icons like Bear App, which ca
 * 3. Highly customizable
 
 ### 🤖 Requirements
-* iOS 7+
+* iOS 10.3+
 * Xcode 8+
 * Swift/Objective-C
 
@@ -135,7 +135,7 @@ SOFTWARE.
 
 
 ### 🤖 要求
-* iOS 7+
+* iOS 10.3+
 * Xcode 8+
 
 
