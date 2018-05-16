@@ -16,15 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
 }
 
 - (void)setAppIconWithName:(NSString *)iconName {
     if (![[UIApplication sharedApplication] supportsAlternateIcons]) {
+        NSLog(@"当前系统版本不支持 AlternateIcons");
         return;
-    }
-    if ([iconName isEqualToString:@""]) {
-        iconName = nil;
     }
     [[UIApplication sharedApplication] setAlternateIconName:iconName completionHandler:^(NSError * _Nullable error) {
         if (error) {
@@ -32,10 +29,7 @@
         }
     }];
 }
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     switch (indexPath.row) {
         case 0:
@@ -50,4 +44,7 @@
     }
 }
 
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+}
 @end
